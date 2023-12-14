@@ -1,0 +1,64 @@
+body{
+    background-color: #0b1d21;
+}
+
+#principal{
+    position: absolute;
+    height: 70%;
+    width: 40%;
+    left: 30%;
+    top: 10%; 
+}
+
+#score{
+    background-color: #078a85;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    border-radius: 5px; 
+
+}
+
+#puntuacion{
+    color: #edd5c5;
+    display: inline;
+    font-size: 200%;
+}
+
+#max-puntuacion{
+    color: #edd5c5;
+    display: inline;
+    font-size: 200%;
+}
+
+#jugar{
+    background-color: #68baab;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30 , 1fr);
+    border-radius: 5px; 
+
+}
+
+#comida{
+    width: 20px;
+    height: 25px;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background-color: #e81e4a;
+}
+
+.serpiente{
+    background-color: #615375;
+}
+
+
+
+
+
+
+
+
